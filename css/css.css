@@ -1,63 +1,32 @@
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 800px) {
 #menu_inicial
 {
-	/*background:#666;*/
-}	
+	background:#666;}	
 #menu_inicial img
-{margin-left:-128px;}
-/*links*/
+{margin-left:-240px;}
+
 #link_menu
 {
 	z-index:3;
 	position:absolute;
-	top:82%;
+	top:50%;
 	left:50%;
-	width:626px;
-	margin-left:-313px;
+	width:620px;
 	height:350px;
-	margin-top:-375px;
-	/*background:#FFF;*/
+	margin-left:-310px;
+	margin-top:300px;
+	background:#FFF;
 }
-/*#events
-{
-	width:25%;
-	height:89%;
-	background:#666;
-	float:left;
-	z-index:3;
-}
-#d_magazine
-{
-	width:46%;
-	height:64%;
-	margin-top:20.1%;
-	background:#93C;
-	z-index:3;
-	float:left;
-}
-#reality
-{
-	width:29%;
-	height:40%;
-	margin-top:33.5%;
-	background:#036;
-	z-index:3;
-	float:left;
-}*/
 
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
 #menu_inicial
 {
-	background:#666;
 }	
 #menu_inicial img
-{margin-top:-128px;}
-.img_menu_inicial
-{
-	background:url(../img/menu.jpg);
-}
+{margin-top:-240px;}
+
 
 /*links*/
 #link_menu
@@ -85,12 +54,14 @@ a{
 	position:fixed;
 	background:#000;
 }
+
 #events
 {
 	width:25%;
 	height:89%;
 	float:left;
 	z-index:3;
+	background:#999;
 }
 #d_magazine
 {
@@ -99,6 +70,7 @@ a{
 	margin-top:20.1%;
 	z-index:3;
 	float:left;
+	background:#F90;
 }
 #reality
 {
@@ -107,6 +79,7 @@ a{
 	margin-top:33.5%;
 	z-index:3;
 	float:left;
+	background:#C39;
 }
 
 
