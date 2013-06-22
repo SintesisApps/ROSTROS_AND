@@ -5,7 +5,7 @@ body{
 	width:70%;
 	
 	}
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 800px) {
 #menu_inicial
 {
 	/*background:#666;*/
@@ -40,7 +40,7 @@ body{
 
 #logo
 {
-	width:648px;
+	width:680px;
 	height:44px;
 	display:inline-block;
 	margin-left:10%;
@@ -49,10 +49,15 @@ body{
 	position:absolute;
 	padding-top:1xp;
 }
-
+#cebecera_prin
+{
+	height:44px;
+	background:#063;
+}
 
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 801px) and (max-width: 1280px) {
+	/*@media screen and (min-width: 769px) and (max-width: 1280px) {*/
 #menu_inicial
 {
 	background:#666;
@@ -87,7 +92,7 @@ body{
 
 #logo
 {
-	width:904px;
+	width:1160px;
 	height:44px;
 	display:inline-block;
 	margin-left:10%;
@@ -96,6 +101,11 @@ body{
 	position:absolute;
 	padding-top:1xp;
 	
+}
+#cebecera_prin
+{
+	height:44px;
+	background:#decada;
 }
 }
 
@@ -106,7 +116,7 @@ a{
 #cebecera_prin
 {
 	height:44px;
-	background:#000;
+	/*background:#000;*/
 }
 
 .contenido
