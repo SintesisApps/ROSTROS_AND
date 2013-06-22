@@ -844,8 +844,8 @@
     multipleKeyboard: false,        //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
     mousewheel: false,              //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
     pausePlay: false,               //Boolean: Create pause/play dynamic element
-    pauseText: "Pause",             //String: Set the text for the "pause" pausePlay item
-    playText: "Play",               //String: Set the text for the "play" pausePlay item
+   // pauseText: "Pause",             //String: Set the text for the "pause" pausePlay item
+  //  playText: "Play",               //String: Set the text for the "play" pausePlay item
 
     // Special properties
     controlsContainer: "",          //{UPDATED} jQuery Object/Selector: Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be $(".flexslider-container"). Property is ignored if given element is not found.
