@@ -557,14 +557,14 @@
       if (!slider.animating) slider.flexAnimate(slider.getTarget("next"));
     }
     // SLIDESHOW:
-   /* slider.pause = function() {
+    slider.pause = function() {
       clearInterval(slider.animatedSlides);
       slider.playing = false;
       // PAUSEPLAY:
       if (vars.pausePlay) methods.pausePlay.update("play");
       // SYNC:
       if (slider.syncExists) methods.sync("pause");
-    }*/
+    }
     // SLIDESHOW:
     slider.play = function() {
       slider.animatedSlides = setInterval(slider.animateSlides, vars.slideshowSpeed);
