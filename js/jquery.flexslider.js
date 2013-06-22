@@ -566,14 +566,14 @@
       if (slider.syncExists) methods.sync("pause");
     }
     // SLIDESHOW:
-    slider.play = function() {
+    /*slider.play = function() {
       slider.animatedSlides = setInterval(slider.animateSlides, vars.slideshowSpeed);
       slider.playing = true;
       // PAUSEPLAY:
       if (vars.pausePlay) methods.pausePlay.update("pause");
       // SYNC:
       if (slider.syncExists) methods.sync("play");
-    }
+    }*/
     slider.canAdvance = function(target, fromNav) {
       // ASNAV:
       var last = (asNav) ? slider.pagingCount - 1 : slider.last;
