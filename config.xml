@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.Sintesis.App"
         version   = "1.0">
-    <name>ROSTROS AND</name>
+    <name>ROSTROS SINT</name>
 
     <description>
         Rostros logo sintesis
@@ -24,11 +24,15 @@
 	<feature name="http://api.phonegap.com/1.0/notification"/>
 	
 
-    <preference name="phonegap-version" value="2.7.0" />
+   <preference name="phonegap-version" value="2.7.0" />
     <preference name="orientation"      value="default" />
-    <preference name="target-device"    value="tablet" />
+    <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
-	 <preference name="DisallowOverscroll" value="true" />
+	 <preference name="webviewbounce" value="false" />
+	<preference name="UIWebViewBounce" value="true" />
+	<preference name="HideKeyboardFormAccessoryBar" value="false" />
+	  <preference name="stay-in-webview" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
 	<preference name="stay-in-webview" value="true" />
 	 <preference name="ios-statusbarstyle" value="black-translucen" />
 

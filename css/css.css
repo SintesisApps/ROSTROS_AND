@@ -1,32 +1,64 @@
-
-@media screen and (min-width: 0px) and (max-width: 800px) {
+body{
+	background-image: url(imagenes/patron.png);
+	font-family:  Helvetica, sans-serif;
+	height:100%;
+	width:70%;
+	
+	}
+@media screen and (min-width: 0px) and (max-width: 768px) {
 #menu_inicial
 {
-	background:#666;}	
+	/*background:#666;*/
+}	
 #menu_inicial img
-{margin-left:-240px;}
-
+{margin-left:-128px;}
+/*links*/
 #link_menu
 {
 	z-index:3;
 	position:absolute;
-	top:50%;
+	top:82%;
 	left:50%;
 	width:626px;
-	height:350px;
 	margin-left:-313px;
-	margin-top:-30px;
-
+	height:350px;
+	margin-top:-375px;
+	/*background:#FFF;*/
+}
+#cab_menu
+{
+	
+	width:120px; 
+	height:44px;	
+	display:inline-block;
+	padding-top:0px;
+	text-align:center;
+	vertical-align:central;
+	position:absolute;
+	z-index:10000;		
 }
 
+#logo
+{
+	width:648px;
+	height:44px;
+	display:inline-block;
+	margin-left:10%;
+	text-align:center;
+	vertical-align:central;
+	position:absolute;
+	padding-top:1xp;
 }
-@media screen and (min-width: 801px) and (max-width: 1280px) {
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 #menu_inicial
 {
+	background:#666;
 }	
 #menu_inicial img
-{margin-top:-240px;}
-
+{margin-top:-128px;}
 
 /*links*/
 #link_menu
@@ -38,13 +70,43 @@
 	width:620px;
 	margin-left:-310px;
 	height:350px;
-	margin-top:-270px;
+	margin-top:-290px;
+}
+#cab_menu
+{
+	
+	width:120px; 
+	height:44px;	
+	display:inline-block;
+	padding-top:0px;
+	text-align:center;
+	vertical-align:central;
+	position:absolute;
+	z-index:3;			
 }
 
+#logo
+{
+	width:904px;
+	height:44px;
+	display:inline-block;
+	margin-left:10%;
+	text-align:center;
+	vertical-align:central;
+	position:absolute;
+	padding-top:1xp;
+	
+}
 }
 
 a{
 	text-decoration:none;
+}
+
+#cebecera_prin
+{
+	height:44px;
+	background:#000;
 }
 
 .contenido
@@ -54,7 +116,6 @@ a{
 	position:fixed;
 	background:#000;
 }
-
 #events
 {
 	width:25%;
@@ -82,7 +143,7 @@ a{
 
 
 #panelSecciones{
-	width:10%;
+	width:120px;
 	height:auto;
 	text-align:center;
 	margin:0;
@@ -90,14 +151,15 @@ a{
 	overflow-y: auto;
 	overflow-x: hidden;
 	position:absolute;
-	z-index:10;
-	margin-top:-300px;
+	z-index:20;
+	display:none;
+	/*margin-top:-300px;
 	background-color:transparent;
 	box-shadow: 0px 4px 7px rgba(0,0,0,0.6);
 	-webkit-transition: all .5s ease-in-out;
 	-moz-transition: all .5s ease-in-out;
 	-o-transition: all .5s ease-in-out;
-	transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;*/
 }
 
  ul
@@ -109,7 +171,7 @@ padding:0;
 }
 #rubrica
 {
-	height:30px;
+	height:45px;
 	width:100%;
 	color:#FFF;
 }
