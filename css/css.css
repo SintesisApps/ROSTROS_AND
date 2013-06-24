@@ -49,11 +49,6 @@ body{
 	position:absolute;
 	padding-top:1xp;
 }
-#cebecera_prin
-{
-	height:44px;
-	background:#063;
-}
 
 }
 @media screen and (min-width: 801px) and (max-width: 1280px) {
@@ -102,11 +97,6 @@ body{
 	padding-top:1xp;
 	
 }
-#cebecera_prin
-{
-	height:44px;
-	background:#decada;
-}
 }
 
 a{
@@ -116,7 +106,7 @@ a{
 #cebecera_prin
 {
 	height:44px;
-	/*background:#000;*/
+	background:#000;
 }
 
 .contenido
